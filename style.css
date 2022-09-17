@@ -1,0 +1,49 @@
+body{
+    background-color: #9f2f31;
+    color: black;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.drumSet{
+    display: grid;
+    grid-template-columns: auto auto auto auto  ;
+}
+
+.instrument{
+    width: 10rem;
+    margin: 4rem 1rem;
+    height: 10rem;
+    font-size: 3rem;
+
+}
+#crash{
+    background-image: url(images/crash.png);
+    object-fit: cover;
+    object-fit: cover;
+    object-fit: cover;
+}
+#tom1{
+    background-image: url(images/tom1.png);
+    object-fit: cover;
+}
+#tom2{
+    background-image: url(images/tom2.png);
+    object-fit: cover;
+}
+#tom3{
+    background-image: url(images/tom3.png);
+}
+#tom4{
+   background-image: url(images/tom4.png);
+}
+#snare{
+   background-image: url(images/snare.png);
+}
+#kick{
+    background-image: url(images/kick.png);
+    object-fit: contain;
+}
